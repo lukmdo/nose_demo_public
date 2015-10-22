@@ -12,9 +12,9 @@ capabilities = [{
     "browserName": "internet explorer",
     "version": "11"
 }, {
-    "platform": "OS X 10.11",
-    "browserName": "safari",
-    "version": "8.1"
+    'platform': "Mac OS X 10.9",
+    'browserName': "chrome",
+    'version': "43",
 }]
 
 username = os.environ["SAUCE_USERNAME"]
